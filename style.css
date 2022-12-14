@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    height: 100vh;
+    background: rgb(44, 44, 44);
+}
+.openbtn{
+    margin-top: 1%;
+    position:fixed;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+nav p{
+    color: green;
+}
+nav a{
+    color: aliceblue;
+}
+
+.total-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 5% 5% 5%;
+}
+.parallax-title{
+    background:url("cyberpunk-girl.jpg")no-repeat center center;
+    background-size:cover;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+}
+.parallax-title p{
+    font-size: 5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
